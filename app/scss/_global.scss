@@ -1,0 +1,189 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: var(--ff);
+	background-color: var(--color-gray-1);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding: 2.60vw;
+	// scroll-padding: 50px;
+}
+
+body {
+	font-family: var(--ff);
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: calc(var(--container-size));
+	width: 100%;
+	margin: 0 auto;
+	// padding: 0 var(--container-padding);
+}
+
+.container-left {
+	max-width: 100%;
+	width: 100%;
+	padding-left: calc((100% - var(--container-size))/2)
+}
+
+.container-right {
+	max-width: 100%;
+	width: 100%;
+	padding-right: calc((100% - var(--container-size))/2)
+}
+
+.title {
+	font-family: var(--ff);
+	font-size: var(--s-44);
+	font-weight: 500;
+	letter-spacing: 0.025em;
+
+	&_white {
+		color: var(--color-gray-1);
+	}
+
+	&_dark {
+		color: #222222;
+	}
+}
+
+.title-description {
+	font-size: var(--s-30);
+}
+
+.chromeperfectpixel-overlay-container,
+.chromeperfectpixel-overlay {
+	pointer-events: none !important;
+}
+
+.bg-gray {
+	background-color: var(--bg-color);
+}
+
+.title-section {
+	font-size: var(--s-30);
+	position: relative;
+	font-weight: 400;
+	padding-left: 1.04vw;
+	// padding-left: 20px;
+
+	&::before {
+		content: "";
+		position: absolute;
+
+		left: 0px;
+		top: 0.26vw;
+		// top: 5px;
+
+
+		width: 0.42vw;
+		height: 0.42vw;
+		// width: 8px;
+		// height: 8px;
+		background-color: var(--color-accent);
+		border-radius: 50%;
+	}
+
+	&_white {
+		color: var(--color-gray-1);
+	}
+
+	&_dark {
+		color: #222222;
+	}
+}
+
+.section-top {
+	max-width: 59.5vw;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.btn {
+	max-width: 30.99vw;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	font-size: var(--s-18);
+	color: #fff;
+	background: #222;
+	border: 1px solid transparent;
+	border-radius: 40px;
+	font-weight: 300;
+	outline: none;
+
+	margin-inline: auto;
+
+	padding: 0.63vw 1.04vw;
+
+	transition: color var(--t), background var(--t), border var(--t);
+
+	&_icon {
+		height: 0.83vw;
+
+		svg {
+			width: 0.83vw;
+			height: 0.83vw;
+
+			path {
+
+				transition: fill var(--t);
+			}
+		}
+	}
+
+	&_outline {
+		border: 1px solid var(--border-color);
+		background-color: transparent;
+	}
+}
+
+.title-page {
+	font-family: var(--ff);
+	font-weight: 500;
+
+	&_mb {
+		margin-bottom: 2.50vw;
+		// margin-bottom: 48px;
+	}
+
+	&_mb-32 {
+		margin-bottom: 1.67vw;
+	}
+}

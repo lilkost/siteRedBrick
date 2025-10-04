@@ -1,0 +1,138 @@
+@media (hover: hover) {
+    .nav__link:hover,
+    .header__phone:hover,
+    .footer__links-item-link:hover,
+    .footer__contacts-item-link:hover,
+    .footer__policy-link:hover,
+    .breadcrumbs__item a:hover,
+    .detail__content a:hover,
+    .reviews__item-content a:hover {
+        color: var(--color-accent);
+    }
+    .form__description a:hover{
+        opacity: 0.7;
+    }
+    .footer__project-link:hover {
+        background: transparent;
+        color:  var(--color-accent);
+    }
+    .header__project:hover::before{
+        left: 0;
+        width: 100%;
+    }
+    .project__item a:hover .project__item-picture::before{
+        opacity: 1;
+    }
+    .btn:hover {
+        background: var(--color-accent);
+        color: #222;
+        border: 1px solid var(--color-accent);
+
+        svg path {
+            fill: #222;
+        }
+    }
+    .advanteges__slide:hover{
+        background-color: #333333;
+
+        .advanteges__slide-title{
+            color: var(--color-gray-1);
+            sup{
+                color: var(--color-accent);
+            }
+        }
+        .advanteges__slide-text,
+        .advanteges__slide-price{
+            color: var(--color-gray-1);
+        }
+        .advanteges__slide-icon{
+            background: var(--color-accent);
+
+            svg path{
+                fill: #333;
+            }
+        }
+    }
+    .articles__item a:hover{
+        .articles__item-icon{
+            svg path{
+                fill: var(--color-accent);
+            }
+        }
+        .articles__item-picture{
+            &::before{
+                backdrop-filter: blur(2px);
+                background: rgb(34, 34, 34, 0.4);
+            }
+            &::after{
+                opacity: 1;
+            }
+        }
+    }
+    .filter__item-btn:hover{
+        background: #333333;
+        color: #FFFFFF;
+    }
+    .top-page__link:hover{
+        background-color: var(--color-accent);
+        color: #333333;
+        svg path{
+            fill: #333333;
+        }
+    }
+}
+
+@media (hover: none) {
+    .nav__link:active,
+    .header__phone:active,
+    .footer__links-item-link:active,
+    .footer__contacts-item-link:active,
+    .footer__policy-link:active  {
+        color: var(--color-accent);
+    }
+    
+    .footer__project-link:active {
+        background: transparent;
+        color:  var(--color-accent);
+    }
+    .reviews__item-content a:active{
+        color: var(--color-accent);
+    }
+    .advanteges__slide:active{
+        background-color: #333333;
+
+        .advanteges__slide-title{
+            color: var(--color-gray-1);
+            sup{
+                color: var(--color-accent);
+            }
+        }
+        .advanteges__slide-text,
+        .advanteges__slide-price{
+            color: var(--color-gray-1);
+        }
+        .advanteges__slide-icon{
+            background: var(--color-accent);
+
+            svg path{
+                fill: #333;
+            }
+        }
+    }
+    .articles__item a:active{
+        .articles__item-icon{
+            svg path{
+                fill: var(--color-accent);
+            }
+        }
+        .articles__item-picture{
+            &::before{
+                backdrop-filter: blur(2px);
+                background: rgb(34, 34, 34, 0.4);
+            }
+            &::after{
+                opacity: 1;
+            }
+        }
+    }
+}

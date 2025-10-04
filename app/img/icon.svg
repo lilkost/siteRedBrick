@@ -1,0 +1,8 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="47px" height="47px">
+<path fill-rule="evenodd"  fill="rgb(222, 255, 0)"
+ d="M23.499,0.1 C36.478,0.1 46.999,10.519 46.999,23.498 C46.999,36.477 36.478,46.998 23.499,46.998 C10.521,46.998 0.0,36.477 0.0,23.498 C0.0,10.519 10.521,0.1 23.499,0.1 Z"/>
+<image  x="15px" y="15px" width="16px" height="16px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfpCR0TDS9S41PkAAAAVUlEQVQoz4XRMQ4AIAgDwEL8kf9/mw4mhkJREgbTGxBsItWCxaeX+HQL7LIGFFJBIgoQ0SCQwTOXWo5PDV5L2ghg/o67IW+sQYgVoFgfC3FwdSz61warTBBWiYcBMgAAAABJRU5ErkJggg==" />
+</svg>
