@@ -30,7 +30,7 @@ export const headerFixed = () =>{
         targetBlocks.forEach(block => {
             const callback = (entries) => {
                 entries.forEach(entry => {
-                    const isVisible = entry.isIntersecting && entry.intersectionRatio >= 1;
+                    const isVisible = entry.isIntersecting && entry.intersectionRatio >= 0.5;
                     
                     if (isVisible !== block.isInViewport) {
                         block.isInViewport = isVisible;
