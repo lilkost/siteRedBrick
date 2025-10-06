@@ -39,16 +39,16 @@ export const sliderCreate = () => {
                 spaceBetween: 18,
                 pagination: {
                     el: '.nadzor__slider-pagination',
-                    type: 'bullets',
+                    // type: 'bullets',
                     clickable: true,
                 },
                 autoplay: {
                     delay: 5000,
                 },
-                effect: 'fade',
-                fadeEffect: {
-                    crossFade: true
-                },
+                // effect: 'fade',
+                // fadeEffect: {
+                //     crossFade: true
+                // },
             }
         ],
     ]

@@ -1156,7 +1156,7 @@ body:has(.header ~ .breadcrumbs) .header {
 
 .marquee {
     /* Скорость: чем больше время — тем медленнее прокрутка */
-    --marquee-duration: 20s;
+    --marquee-duration: 15s;
 
     /* Направление: 1 — слева направо? (на деле это «влево»),
          -1 — наоборот (вправо). Подробнее ниже. */
@@ -1175,7 +1175,21 @@ body:has(.header ~ .breadcrumbs) .header {
     padding: 1.09vw 0;
     border-top: 1px solid var(--border-color);
 }
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
 
+    to {
+        transform: translateX(calc(-50% * var(--marquee-direction)));
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .marquee__track {
+        animation: none;
+    }
+}
 .marquee_mb {
     // margin-bottom: 70px;
     margin-bottom: 3.65vw;
@@ -1220,21 +1234,7 @@ body:has(.header ~ .breadcrumbs) .header {
 }
 
 
-@keyframes marquee {
-    from {
-        transform: translateX(0);
-    }
 
-    to {
-        transform: translateX(calc(-50% * var(--marquee-direction)));
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .marquee__track {
-        animation: none;
-    }
-}
 
 .articles {
     &_mb {
@@ -2485,4 +2485,7 @@ body:has(.header ~ .breadcrumbs) .header {
 a[href^="tel"]{
     color:inherit;
     text-decoration:none;
+}
+.swiper-pagination-bullet{
+    cursor: pointer;
 }
