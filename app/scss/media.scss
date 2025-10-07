@@ -133,8 +133,11 @@
 
     .configurator__inner {
         grid-template-columns: 1fr;
+        gap: 0;
     }
-
+.configurator__step .form__btn{
+    margin-bottom: 4.80vw;
+}
     .configurator__picture {
         grid-row-start: 2;
     }

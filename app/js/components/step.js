@@ -18,7 +18,12 @@ export const steps = () =>{
                 
                 if(nextStep){
                     currentStep.classList.remove("is-active");
-                    nextStep.classList.add("is-active");
+                    currentStep.classList.remove("b-flex");
+
+                    nextStep.classList.add("b-flex");
+                    setTimeout(()=>{
+                        nextStep.classList.add("is-active");
+                    }, 100)
                 }
             }
         });

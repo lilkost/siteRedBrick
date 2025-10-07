@@ -45,10 +45,6 @@ export const sliderCreate = () => {
                 autoplay: {
                     delay: 5000,
                 },
-                // effect: 'fade',
-                // fadeEffect: {
-                //     crossFade: true
-                // },
             }
         ],
     ]

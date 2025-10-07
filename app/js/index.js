@@ -1,22 +1,27 @@
-import { headerFixed } from "./components/headerFixed.js";
+import { headerFixed } from "./components/headerFn.js";
 import { scrollAnim } from "./components/scrollAnim.js";
+import { useDynamicAdapt } from './dynamicAdapt.js'
 
 import { sliderCreate } from "./components/slider.js";
-import { createStars } from "./components/stars.js";
 import { fillterBtn } from "./components/filter-btn.js";
 import { formtInput } from "./components/input-form.js";
 import { steps } from "./components/step.js";
 import { headerMenu } from "./components/headerMenu.js";
-
-import { useDynamicAdapt } from './dynamicAdapt.js'
+import { hoveringBlock } from "./components/hoverBlock.js";
+import { observerFn } from "./components/observerHTML.js";
+import { advantagesEl } from "./components/advantagesEl.js";
+import { reviewsOpen } from "./components/reviewOpen.js";
 
 useDynamicAdapt()
 headerFixed();
 scrollAnim();
-
+advantagesEl();
 sliderCreate();
-createStars();
+
 fillterBtn();
 formtInput();
 steps();
 headerMenu();
+hoveringBlock();
+observerFn();
+reviewsOpen();

@@ -79,10 +79,10 @@ button {
 	font-size: var(--s-30);
 }
 
-.chromeperfectpixel-overlay-container,
-.chromeperfectpixel-overlay {
-	pointer-events: none !important;
-}
+// .chromeperfectpixel-overlay-container,
+// .chromeperfectpixel-overlay {
+// 	pointer-events: none !important;
+// }
 
 .bg-gray {
 	background-color: var(--bg-color);
@@ -155,11 +155,11 @@ button {
 	transition: color var(--t), background var(--t), border var(--t);
 
 	&_icon {
-		height: 0.83vw;
+		height: var(--s-16);
 
 		svg {
-			width: 0.83vw;
-			height: 0.83vw;
+			width: var(--s-16);
+			height: var(--s-16);
 
 			path {
 
