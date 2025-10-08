@@ -47,6 +47,33 @@ export const sliderCreate = () => {
                 },
             }
         ],
+                [
+            document.querySelector(".comand__slider"),
+            {
+                direction: 'horizontal',
+                loop: false,
+                slidesPerView: 4,
+                spaceBetween: 20,
+                scrollbar: {
+                    el: ".comand-scrollbar",
+                    hide: false,
+                },
+                breakpoints: {
+                    993:{
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                    },
+                    481:{
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                    280:{
+                        slidesPerView: 1,
+                        spaceBetween: 12,
+                    }
+                }
+            }
+        ],
     ]
     // функция конструктор для создания сладеров
     const createSlider = (node, options) => {

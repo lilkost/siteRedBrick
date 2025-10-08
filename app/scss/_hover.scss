@@ -11,6 +11,14 @@
         color: var(--color-accent);
     }
 
+    .top-page__link:hover {
+        background-color: var(--color-accent);
+        color: #333333;
+
+        svg path {
+            fill: #333333;
+        }
+    }
     .form__description a:hover {
         opacity: 0.7;
     }
@@ -125,14 +133,6 @@
         color: #FFFFFF;
     }
 
-    .top-page__link:hover {
-        background-color: var(--color-accent);
-        color: #333333;
-
-        svg path {
-            fill: #333333;
-        }
-    }
 
     .marquee:hover {
         background: var(--color-accent);

@@ -11,6 +11,7 @@ import { hoveringBlock } from "./components/hoverBlock.js";
 import { observerFn } from "./components/observerHTML.js";
 import { advantagesEl } from "./components/advantagesEl.js";
 import { reviewsOpen } from "./components/reviewOpen.js";
+import { createModal } from "./components/createModal.js";
 
 useDynamicAdapt()
 headerFixed();
@@ -25,3 +26,4 @@ headerMenu();
 hoveringBlock();
 observerFn();
 reviewsOpen();
+createModal();
