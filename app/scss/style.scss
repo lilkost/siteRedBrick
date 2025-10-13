@@ -936,7 +936,7 @@ body:has(.header ~ .breadcrumbs) .header {
             padding-left: 2.40vw;
             padding-right: 1.67vw;
             padding-bottom: 1.56vw;
-
+            height: 100%;
             // padding-top: 40px;
             // padding-left: 46px;
             // padding-right: 32px;
@@ -3005,4 +3005,12 @@ a[href^="tel"] {
     // .error-page__link
 
     &__link {}
+}
+.services_mb{
+    margin-bottom: var(--s-70);
+}
+.services__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.94vw;
 }
