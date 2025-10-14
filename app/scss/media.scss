@@ -1379,4 +1379,12 @@
             }
         }
     }
+
+    .nav{
+        display: none;
+
+        &._dynamic_adapt_{
+            display: block;
+        }
+    }
 }

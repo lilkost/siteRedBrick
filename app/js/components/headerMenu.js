@@ -3,6 +3,10 @@ export const headerMenu = () =>{
         headerMenu = document.querySelector(".header-menu"),
         btnClose = document.querySelector(".header-menu__btn-close");
 
+    setTimeout(()=>{
+        headerMenu.style.display = "";
+    }, 500);
+
     btn.addEventListener("click",()=>{
         headerMenu.classList.add("is-open");
     });
