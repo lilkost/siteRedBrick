@@ -13,6 +13,7 @@ export const sliderCreate = () => {
                 scrollbar: {
                     el: ".advanteges-scrollbar",
                     hide: false,
+                    draggable: true,
                 },
                 breakpoints: {
                     993:{
@@ -27,7 +28,11 @@ export const sliderCreate = () => {
                         slidesPerView: 1.08,
                         spaceBetween: 12,
                     }
-                }
+                },
+                navigation: {
+                    nextEl: '.advanteges__btn-next',
+                    prevEl: '.advanteges__btn-prev',
+                },
             }
         ],
         [
@@ -71,7 +76,11 @@ export const sliderCreate = () => {
                         slidesPerView: 1,
                         spaceBetween: 12,
                     }
-                }
+                },
+                navigation: {
+                    nextEl: '.advanteges__btn-next',
+                    prevEl: '.advanteges__btn-prev',
+                },
             }
         ],
     ]

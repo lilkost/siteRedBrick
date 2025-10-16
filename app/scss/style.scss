@@ -3014,3 +3014,111 @@ a[href^="tel"] {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.94vw;
 }
+
+.advanteges__controlls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.67vw;
+}
+.comand-scrollbar{
+    width: 100%;
+}
+.advanteges__btn {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    opacity: 1;
+    transition: opacity 300ms linear;
+    &.swiper-button-disabled{
+        opacity: 0.5;
+        pointer-events: none;
+    }
+    svg {
+        width: var(--s-40);
+        height: var(--s-40);
+
+        path {
+            transition: stroke 300ms linear;
+        }
+    }
+}
+
+.advanteges-scrollbar{
+    width: 100%;
+}
+.advanteges__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.comand__slider {
+    .advanteges__btn {
+    
+    &.swiper-button-disabled{
+        opacity: 1;
+        pointer-events: none;
+        svg path {
+            fill: #c4c4c4;
+            g{
+                path{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+}
+
+.form__description{
+    &:has(.form__description-decor){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        input{
+            display: none;
+        }
+    }
+    input:checked ~ .form__description-decor{
+        background-color: #333333;
+        border: 1px solid #333333;
+
+        &::before{
+            opacity: 1;
+        }
+    }
+}
+
+.form__description-decor{
+    width: 1.04vw;
+    height: 1.04vw;
+    flex-shrink: 0;
+    border: 1px solid #E3E1E1;
+    border-radius: 0.21vw;
+    position: relative;
+    background: transparent;
+    transition: background 300ms linear, border 300ms linear;
+    margin-right: var(--s-16);
+}
+
+.form__description-decor::before{
+    content: "";
+    background-image: url(../img/icon-checkbox.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 0.63vw;
+    height: 0.63vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 300ms linear;
+}

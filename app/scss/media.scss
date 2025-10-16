@@ -73,6 +73,10 @@
     .form__description {
         font-size: var(--s-16);
     }
+    .form__description-decor{
+        width: 1.1vw;
+        height: 1.1vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -174,6 +178,9 @@
 
     .services__list {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .advanteges__buttons{
+        display: none;
     }
 }
 
@@ -1389,5 +1396,13 @@
     }
     .main{
         --hei: 20.42vw !important;
+    }
+    .form__description-decor{
+        width: 5.33vw;
+        height: 5.33vw;
+    }
+    .form__description-decor::before{
+        width: 3.20vw;
+        height: 3.20vw;
     }
 }
