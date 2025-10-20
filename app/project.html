@@ -57,7 +57,7 @@
         
                 <div class="header__links">
                     <a class="header__phone" href="tel:+79951337775">+7 995 133 77 75</a>
-                    <a class="header__project" href="#!">Заказать проект</a>
+                    <a class="header__project open-modal-os">Заказать проект</a>
                 </div>
                 <button class="header__btn-burger" aria-label="открыть меню" type="button">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@
                     <a href="tel:+79951337775" class="header-menu__link">+7 995 133 777 5</a>
                     <a href="mailto:rbrickstudio@gmail.com" class="header-menu__link">rbrickstudio@gmail.com</a>
                 </div>
-                <button class="header-menu__btn-project" type="button">Заказать проект</button>
+                <button class="header-menu__btn-project open-modal-os" type="button">Заказать проект</button>
             </div>
         </div>
         
@@ -196,7 +196,7 @@
                             <a class="footer__contacts-item-link" href="#!">Vkontakte</a>
                         </li>
                     </ul>
-                    <a class="footer__project-link" href="#!">
+                    <a class="footer__project-link open-modal-os" href="#!">
                         Заказать проект
                     </a>
                 </div>
@@ -227,7 +227,7 @@
             </div>
         </footer>
         
-        <div class="modal modal-succes">
+        <div class="modal modal-parent modal-succes ">
             <div class="modal__inner">
                 <div class="modal-box">
                     <strong class="modal__title">
@@ -264,6 +264,60 @@
                 <picture class="modal__picture">
                     <img src="img/modal-image.png" alt="">
                 </picture>
+            </div>
+        </div>
+        
+        <div class="modal modal-parent modal-os">
+            <div class="modal__inner">
+                <form action="" class="form">
+                    <h3 class="form__title">Оставить заявку</h3>
+                    <p class="form__description">
+                        Наш менеджер свяжется с вами в ближайшее время<br> и уточнит дополнительные детали.
+                    </p>
+                    <fieldset class="form__col form__col_1">
+                        <legend>Поля формы</legend>
+                        <label for="" class="form__label">
+                            <input type="text" class="focus-input">
+                            <span class="form__label-placeholder">Имя</span>
+                        </label>
+                        <label for="" class="form__label">
+                            <input type="email" class="focus-input">
+                            <span class="form__label-placeholder">Email</span>
+                        </label>
+                        <button class="btn form__btn btn_animate" type="button">
+                            <div class="btn_animate-box">
+                                <span>Отправить</span>
+                                <span>Отправить</span>
+                            </div>
+                            <div class="btn_animate-box-icon">
+                                <div class="btn_icon">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="btn_icon">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+                    </fieldset>
+                    <label id="check123" class="form__description">
+                        <input type="checkbox" id="check123">
+                        <div class="form__description-decor"></div>
+                        <p>
+                            Нажимая кнопку «Отправить», Вы соглашается с
+                            нашей политикой <a href="#!">Обработки персональных данных</a>
+                        </p>
+                    </label>
+                </form>
             </div>
         </div>
     </div>

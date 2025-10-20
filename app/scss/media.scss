@@ -73,6 +73,10 @@
     .form__description {
         font-size: var(--s-16);
     }
+    .form__description-decor{
+        width: 1.1vw;
+        height: 1.1vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -174,6 +178,17 @@
 
     .services__list {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .advanteges__buttons{
+        display: none;
+    }
+    .modal.modal-os .modal__inner {
+        display: block;
+        max-width: 85vw;
+    }
+
+    .modal-parent.modal-os .form__label-placeholder {
+        top: 1.5vw;
     }
 }
 
@@ -1348,6 +1363,10 @@
     .modal {
         padding: 4.27vw;
         overflow-y: scroll;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
     }
 
     .error-page__title {
@@ -1389,5 +1408,28 @@
     }
     .main{
         --hei: 20.42vw !important;
+    }
+    .form__description-decor{
+        width: 5.33vw;
+        height: 5.33vw;
+    }
+    .form__description-decor::before{
+        width: 3.20vw;
+        height: 3.20vw;
+    }
+    .modal-parent.modal-os .form__label-placeholder{
+        top: 3.73vw;
+    }
+    .modal.modal-os .modal__inner{
+        max-width: calc(100vw - 4.27vw);
+    }
+    .modal.modal-os .form{
+        padding: var(--s-32) var(--s-16);
+    }
+    .modal.modal-os .form__title{
+        font-size: var(--s-24);
+    }
+    .modal.modal-os .form__col {
+        margin-bottom: var(--s-16);
     }
 }

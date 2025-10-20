@@ -15,6 +15,12 @@ export const createModal = () => {
                 document.querySelector(".modal-succes .modal__btn-close"),
                 "is-open",
             ],
+            [
+                document.querySelectorAll('.open-modal-os'),
+                document.querySelector(".modal-os"),
+                document.querySelector(".modal-os .modal__btn-close"),
+                "is-open",
+            ],
         ]
 
         // функция открытия модального окна
