@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <meta name="format-detection" content="telephone=no">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/gsap/gsap.min.js" defer></script>
+    <script src="js/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="js/gsap/ScrollTrigger.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="js/main.min.js" defer></script>
+    <script src="js/index.js" type="module"></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+
+</head>
+
+<body class="">
+
+    <!-- wrapper -->
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__inner container">
+                <a class="header__logo" href="allPage.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151px"
+                        height="20px">
+                        <image x="0px" y="0px" width="151px" height="20px"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAAAUCAQAAAAqsmeEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfpCRsPNQTZlxOXAAADjElEQVRYw9WYzX2jMBDF/84vDbAlsCUoJcgl4BKgBFQClAAlmBKghFDC0oKOOe4eJDCgD7CTyz7f8EiaedK8GenylSDYY2JyvgkS/NCMAZsRzTmkpM4332h52soXQ0JGirA+D4vfx2ONf+PlS9J7KeioN4N6j6sGA9egjaajYzikq6TyfJ1QdJsvfz1WIy2tY6Wod1RV5I7nyqHMP7ZHMHJ9C7ifkPPHmf55JOT03IMnM46UO+WhlaDh82AFYaPRtCgUNSMg+TwVY4kACvRb1Kwh+zZhABn9KcIum9+VEaicNFUbqw9aS1mMrJ4ETcEvCmpqFB92/uMYM0ow5/B9+TisUiYls+FVu2QA5Uznaoda5pE2WEHP9bSSzR5d+UNCtkuNLUYKJioyUo9aGTQkaEvPdv4eQcMYHAkJDdAZH9Z0rZ1q7XlIkTvlibnus5lVSVB6qI5DMwYVc7teBUFacwRw8wi7thtSUgTnvttzCUAoGcflVAm+h3ohqXxBwc6OiBWTHGgDFhoFkXQskcBtzouwdr0mzj7Uy74+q4TmXHQnLMObahqlMJ0tF34FZ62A+jH6PWAol9D2C+1L+eVEMJ0NJz2w21bBzNajiSOYc+unVXijiCO1EtAA41pCHnTJlbFYdmvytnLP4tHGxuH2XmrXUflCy6iALkrrc0UmX7UXG71d0+WKqub2A2S9qkAJgorcEenKQ+sQEevvIVt79R4xnLzV5NnqBo9TdXRSr864BkHDR3SU29W7SE+k9DpGU2MrSnKGR5qH6aoDxJxpJPaYdfAZlw0Rih6xa2baxf2MHM0tOq8ZKYOEJuSEUlkht33Z2+ov0yXPJGU/VhsbK/H6VI3zBbvVvInB/hSTbSNj6IjV5JyKPEh4gV6v4DYSc9lPf+DGaG598zz1k4ILs+qFgjHtozy4V7aADEQjKK2FHyP1egVfMir7RlF5nzh6z5QqYLN+HBpeSuPcrhDCQEdGGa2LAwOSxkOLuUuOUc9qBNnMxbt3+tqy6RPZM5cS12Y4VWO34xJyJEctQoEkoXHKxBo3ezcUq0ephJyS5ET1f6yg/VJfk5FijuorZ2ILTX1yFt/L21GLoCm4I6Oeaq7ckeTky9Of2ZrxRBusLd0l6i1g8LjnHXXi8YU6FL9fpFzTUZx4x+joDj3VXC0xKdL2mBrlvFL4YYSkJLt8fYON/xBiSfjxyYsRAP8AoAsoE5Faz5IAAAAASUVORK5CYII=" />
+                    </svg>
+                </a>
+                <nav class="nav" data-da=".header-menu, 480, 1">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#!">Студия</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#!">Кейсы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#!">Услуги</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#!">Материалы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#!">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <div class="header__links">
+                    <a class="header__phone" href="tel:+79951337775">+7 995 133 77 75</a>
+                    <a class="header__project open-modal-os">Заказать проект</a>
+                </div>
+                <button class="header__btn-burger" aria-label="открыть меню" type="button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 6H23M1 12H23M1 18H23" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <div class="header-menu" style="display: none;">
+            <div class="header-menu__top">
+                <a href="/" class="header-menu-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151px"
+                        height="20px">
+                        <image x="0px" y="0px" width="151px" height="20px"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAAAUCAQAAAAqsmeEAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfpCRsPNQTZlxOXAAADjElEQVRYw9WYzX2jMBDF/84vDbAlsCUoJcgl4BKgBFQClAAlmBKghFDC0oKOOe4eJDCgD7CTyz7f8EiaedK8GenylSDYY2JyvgkS/NCMAZsRzTmkpM4332h52soXQ0JGirA+D4vfx2ONf+PlS9J7KeioN4N6j6sGA9egjaajYzikq6TyfJ1QdJsvfz1WIy2tY6Wod1RV5I7nyqHMP7ZHMHJ9C7ifkPPHmf55JOT03IMnM46UO+WhlaDh82AFYaPRtCgUNSMg+TwVY4kACvRb1Kwh+zZhABn9KcIum9+VEaicNFUbqw9aS1mMrJ4ETcEvCmpqFB92/uMYM0ow5/B9+TisUiYls+FVu2QA5Uznaoda5pE2WEHP9bSSzR5d+UNCtkuNLUYKJioyUo9aGTQkaEvPdv4eQcMYHAkJDdAZH9Z0rZ1q7XlIkTvlibnus5lVSVB6qI5DMwYVc7teBUFacwRw8wi7thtSUgTnvttzCUAoGcflVAm+h3ohqXxBwc6OiBWTHGgDFhoFkXQskcBtzouwdr0mzj7Uy74+q4TmXHQnLMObahqlMJ0tF34FZ62A+jH6PWAol9D2C+1L+eVEMJ0NJz2w21bBzNajiSOYc+unVXijiCO1EtAA41pCHnTJlbFYdmvytnLP4tHGxuH2XmrXUflCy6iALkrrc0UmX7UXG71d0+WKqub2A2S9qkAJgorcEenKQ+sQEevvIVt79R4xnLzV5NnqBo9TdXRSr864BkHDR3SU29W7SE+k9DpGU2MrSnKGR5qH6aoDxJxpJPaYdfAZlw0Rih6xa2baxf2MHM0tOq8ZKYOEJuSEUlkht33Z2+ov0yXPJGU/VhsbK/H6VI3zBbvVvInB/hSTbSNj6IjV5JyKPEh4gV6v4DYSc9lPf+DGaG598zz1k4ILs+qFgjHtozy4V7aADEQjKK2FHyP1egVfMir7RlF5nzh6z5QqYLN+HBpeSuPcrhDCQEdGGa2LAwOSxkOLuUuOUc9qBNnMxbt3+tqy6RPZM5cS12Y4VWO34xJyJEctQoEkoXHKxBo3ezcUq0ephJyS5ET1f6yg/VJfk5FijuorZ2ILTX1yFt/L21GLoCm4I6Oeaq7ckeTky9Of2ZrxRBusLd0l6i1g8LjnHXXi8YU6FL9fpFzTUZx4x+joDj3VXC0xKdL2mBrlvFL4YYSkJLt8fYON/xBiSfjxyYsRAP8AoAsoE5Faz5IAAAAASUVORK5CYII=">
+                        </image>
+                    </svg>
+                </a>
+                <button class="header-menu__btn-close" type="button" aria-label="Закрыть окно">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.3333 13.3333L2.66666 2.66667" stroke="#222222" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M13.3333 2.66667L2.66666 13.3333" stroke="#222222" stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+            <div class="header-menu__bottom">
+                <div class="header-menu__links">
+                    <a href="tel:+79951337775" class="header-menu__link">+7 995 133 777 5</a>
+                    <a href="mailto:rbrickstudio@gmail.com" class="header-menu__link">rbrickstudio@gmail.com</a>
+                </div>
+                <button class="header-menu__btn-project open-modal-os" type="button">Заказать проект</button>
+            </div>
+        </div>
+
+        <main class="main">
+            <div class="breadcrumbs breadcrumbs_mb">
+                <ul class="breadcrumbs__list container">
+                    <li class="breadcrumbs__item">
+                        <a href="#!">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        Материалы
+                    </li>
+                </ul>
+            </div>
+            <div class="top-page top-page_mb container">
+                <h1 class="title-page title title_dark">Отзывы</h1>
+                <a href="#!" class="top-page__link btn btn_animate">
+                    <div class="btn_animate-box">
+                        <span>Оставить отзыв</span>
+                        <span>Оставить отзыв</span>
+                    </div>
+
+                    <div class="btn_animate-box-icon">
+                        <div class="btn_icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="btn_icon">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="reviews__list reviews__list_mb-72 container">
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            СА
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Светлана Александровна</p>
+                            <p class="reviews__item-place">Отзыв из Яндекс.Карт</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            ИС
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Иванов Степан</p>
+                            <p class="reviews__item-place">Отзыв из 2GIS</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                        <div class="reviews__item-content_new-content">
+                            Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также
+                            обращалась за
+                            консультацией по своей студии, нужна была помощь, не знала, что и как
+                            расставить, чтобы было комфортно моим клиентам.
+                        </div>
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            СА
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Светлана Александровна</p>
+                            <p class="reviews__item-place">Отзыв из Яндекс.Карт</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            СА
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Светлана Александровна</p>
+                            <p class="reviews__item-place">Отзыв из Яндекс.Карт</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            ИС
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Иванов Степан</p>
+                            <p class="reviews__item-place">Отзыв из 2GIS</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                        <div class="reviews__item-content_new-content">
+                            Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также
+                            обращалась за
+                            консультацией по своей студии, нужна была помощь, не знала, что и как
+                            расставить, чтобы было комфортно моим клиентам.
+                        </div>
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            СА
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Светлана Александровна</p>
+                            <p class="reviews__item-place">Отзыв из Яндекс.Карт</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            СА
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Светлана Александровна</p>
+                            <p class="reviews__item-place">Отзыв из Яндекс.Карт</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            ИС
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Иванов Степан</p>
+                            <p class="reviews__item-place">Отзыв из 2GIS</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                        <div class="reviews__item-content_new-content">
+                            Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также
+                            обращалась за
+                            консультацией по своей студии, нужна была помощь, не знала, что и как
+                            расставить, чтобы было комфортно моим клиентам.
+                        </div>
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__item-top">
+                        <div class="reviews__item-avatar">
+                            СА
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="reviews__item-box">
+                            <p class="reviews__item-name">Светлана Александровна</p>
+                            <p class="reviews__item-place">Отзыв из Яндекс.Карт</p>
+                        </div>
+                    </div>
+                    <div class="reviews__item-row">
+                        <div class="stars-item__rating">
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                            <svg class="star" viewBox="0 0 16 16">
+                                <defs>
+                                    <clipPath id="clip-0">
+                                        <rect x="0" y="0" width="100%" height="100%"></rect>
+                                    </clipPath>
+                                </defs>
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#c7c7c7" />
+                                <path
+                                    d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z"
+                                    fill="#FFCA62" clip-path="url(#clip-0)" />
+                            </svg>
+                        </div>
+                        <time datetime="" class="reviews__item-time">21.12.2025</time>
+                    </div>
+                    <div class="reviews__item-content">
+                        Очень выручили! Помогли сделать проект квартиры, где нужно было все уместить. Также обращалась
+                        за
+                        консультацией по своей студии, нужна была помощь, не знала, что и как
+                        расставить, чтобы было комфортно моим клиентам.
+                    </div>
+                    <a class="reviews__item-content-open" href="#!">Читать дальше</a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner container">
+                <div class="footer__content">
+                    <ul class="footer__links">
+                        <li class="footer__links-item">
+                            <a class="footer__links-item-link" href="#!">Студия</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a class="footer__links-item-link" href="#!">Проекты</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a class="footer__links-item-link" href="#!">Услуги</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a class="footer__links-item-link" href="#!">Материалы</a>
+                        </li>
+                        <li class="footer__links-item">
+                            <a class="footer__links-item-link" href="#!">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__contacts">
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-item-link" href="tel:+79951337775">+7 995 133 777 5</a>
+                            <a class="footer__contacts-item-link"
+                                href="mailto:rbrickstudio@gmail.com">rbrickstudio@gmail.com</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-item-link" href="#!">Telegram</a>
+                            <a class="footer__contacts-item-link" href="#!">WhatsApp</a>
+                            <a class="footer__contacts-item-link" href="#!">MAX</a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <address class="footer__contacts-item-address">
+                                г. Москва, ул. Максима Горького 69
+                            </address>
+                            <time datetime="">с 10:00 - 19:00</time>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a class="footer__contacts-item-link" href="#!">Instagram</a>
+                            <a class="footer__contacts-item-link" href="#!">Vkontakte</a>
+                        </li>
+                    </ul>
+                    <a class="footer__project-link open-modal-os" href="#!">
+                        Заказать проект
+                    </a>
+                </div>
+                <ul class="footer__policy">
+                    <li class="footer__policy-item footer__policy-item_smal-text">
+                        <a class="footer__policy-link" href="#!">Политика конфиденциальности и обработки данных</a>
+                        <a class="footer__policy-link" href="#!">Все права защищены © Red Brick</a>
+                    </li>
+                    <li class="footer__policy-item">
+                        <a class="footer__policy-link link-scroll-top" href="#header">Вернутся в начало</a>
+                    </li>
+                    <li class="footer__policy-item">
+                        <a class="footer__policy-link" href="#!">Разработано в OXBOX</a>
+                    </li>
+                </ul>
+                <p class="footer__text">
+                    <strong>
+                        <span style="--del: 0.1s">R</span>
+                        <span style="--del: 0.2s">e</span>
+                        <span style="--del: 0.3s">d</span>
+                    </strong>
+                    <span style="--del: 0.4s">B</span>
+                    <span style="--del: 0.5s">r</span>
+                    <span style="--del: 0.6s">i</span>
+                    <span style="--del: 0.7s">c</span>
+                    <span style="--del: 0.8s">k</span>
+                </p>
+            </div>
+        </footer>
+        
+        <div class="modal modal-parent modal-succes ">
+            <div class="modal__inner">
+                <div class="modal-box">
+                    <strong class="modal__title">
+                        Спасибо! Ваша <br>
+                        заявка отправлена
+                    </strong>
+                    <p class="modal__text">
+                        Наш менеджер свяжется с вами в ближайшее<br>
+                        времяи уточнит дополнительные детали.
+                    </p>
+                    <button class="modal__btn btn btn_animate modal__btn-close">
+                        <div class="btn_animate-box">
+                            <span>Закрыть окно</span>
+                            <span>Закрыть окно</span>
+                        </div>
+                        <div class="btn_animate-box-icon">
+                            <div class="btn_icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                        fill="white"></path>
+                                </svg>
+                            </div>
+                            <div class="btn_icon">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                        fill="white"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <picture class="modal__picture">
+                    <img src="img/modal-image.png" alt="">
+                </picture>
+            </div>
+        </div>
+        
+        <div class="modal modal-parent modal-os">
+            <div class="modal__inner">
+                <form action="" class="form">
+                    <h3 class="form__title">Оставить заявку</h3>
+                    <p class="form__description">
+                        Наш менеджер свяжется с вами в ближайшее время<br> и уточнит дополнительные детали.
+                    </p>
+                    <fieldset class="form__col form__col_1">
+                        <legend>Поля формы</legend>
+                        <label for="" class="form__label">
+                            <input type="text" class="focus-input">
+                            <span class="form__label-placeholder">Имя</span>
+                        </label>
+                        <label for="" class="form__label">
+                            <input type="email" class="focus-input">
+                            <span class="form__label-placeholder">Email</span>
+                        </label>
+                        <button class="btn form__btn btn_animate" type="button">
+                            <div class="btn_animate-box">
+                                <span>Отправить</span>
+                                <span>Отправить</span>
+                            </div>
+                            <div class="btn_animate-box-icon">
+                                <div class="btn_icon">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="btn_icon">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </button>
+                    </fieldset>
+                    <label id="check123" class="form__description">
+                        <input type="checkbox" id="check123">
+                        <div class="form__description-decor"></div>
+                        <p>
+                            Нажимая кнопку «Отправить», Вы соглашается с
+                            нашей политикой <a href="#!">Обработки персональных данных</a>
+                        </p>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
