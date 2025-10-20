@@ -1,0 +1,194 @@
+<!--=include head.html-->
+
+<body class="">
+
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!--=include header.html-->
+
+        <main class="main">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list container">
+                    <li class="breadcrumbs__item">
+                        <a href="#!">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        Конфигуратор
+                    </li>
+                </ul>
+            </div>
+            <section class="configurator container-right">
+                <div class="configurator__inner">
+                    <picture class="configurator__picture">
+                        <img src="img/config.png" alt="">
+                    </picture>
+                    <div class="configurator__content">
+                        <div class="configurator__steps">
+                            <div class="configurator__step b-flex is-active" data-step="1">
+                                <strong class="configurator__title">
+                                    Конфигуратор расчета стоимости ремонта:<br>
+                                    Узнайте цену вашего проекта
+                                </strong>
+                                <p class="configurator__description">
+                                    <span class="configurator__description-step">Шаг 1/2.</span>
+                                    Укажите количество квадратных метров:
+                                </p>
+                                <div class="price-slider__parent">
+                                    <div class="price-slider"></div>
+                                    <div class="price-slider__row">
+                                        <p class="price-slider__value">
+                                            20 м<sup>²</sup>
+                                        </p>
+                                        <p class="price-slider__value">
+                                            150 м<sup>²</sup>
+                                        </p>
+                                    </div>
+                                </div>
+                                <h3 class="configurator__step-title">Смета на ремонт:</h3>
+                                <ul class="configurator__step-list">
+                                    <li class="configurator__step-item">Рабочие ~ 30 000 ₽</li>
+                                    <li class="configurator__step-item">Черновые материалы ~ 15 000 ₽</li>
+                                    <li class="configurator__step-item">Чистовые материалы (бизнес сегмент) ~ 35 000 ₽
+                                    </li>
+                                    <li class="configurator__step-item">Дизайн проект ~ 5 000 ₽</li>
+                                    <li class="configurator__step-item">Сопровождение (~4 месяца) - 240 000 ₽</li>
+                                    <li class="configurator__step-item">Меблировка (бизнес сегмент) ~ 38 000 ₽</li>
+                                </ul>
+                                <div class="configurator__result">
+                                    <div class="configurator__result-price">
+                                        Итого: <span>358 000 ₽</span>
+                                    </div>
+                                    <p class="configurator__result-text">
+                                        Данные расчета являются предварительными. Точную цену уточняйте у менеджера
+                                    </p>
+                                </div>
+                                <button class="btn btn_animate configurator__btn configurator-btn-step" type="button">
+                                    <div class="btn_animate-box">
+                                        <span>Далее</span>
+                                        <span>Далее</span>
+                                    </div>
+                                    <div class="btn_animate-box-icon">
+                                        <div class="btn_icon">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        <div class="btn_icon">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="configurator__step" data-step="2">
+                                <strong class="configurator__title">
+                                    Конфигуратор расчета стоимости ремонта:<br>
+                                    Узнайте цену вашего проекта
+                                </strong>
+                                <p class="configurator__description">
+                                    <span class="configurator__description-step">Шаг 2/2.</span>
+                                    Заполните форму ниже, и мы свяжемся<br>
+                                    с вами в ближайшее время.
+                                </p>
+                                <form action="" class="form">
+                                    <fieldset class="form__col form__col_3">
+                                        <legend>Поля формы</legend>
+                                        <label for="" class="form__label">
+                                            <input type="text" class="focus-input">
+                                            <span class="form__label-placeholder">Имя</span>
+                                        </label>
+                                        <label for="" class="form__label">
+                                            <input type="text" class="focus-input phone-mask">
+                                            <span class="form__label-placeholder">Номер телефона *</span>
+                                        </label>
+                                        <label for="" class="form__label">
+                                            <input type="email" class="focus-input">
+                                            <span class="form__label-placeholder">Email</span>
+                                        </label>
+                                        <label for="" class="form__label">
+                                            <textarea class="form__textarea focus-input"></textarea>
+                                            <span class="form__label-placeholder">Комментарий</span>
+                                        </label>
+                                    </fieldset>
+                                    <button class="btn btn_animate open-modal-succes form__btn" type="button">
+                                        <div class="btn_animate-box">
+                                            <span>Отправить заявку</span>
+                                            <span>Отправить заявку</span>
+                                        </div>
+                                        <div class="btn_animate-box-icon">
+                                            <div class="btn_icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </div>
+                                            <div class="btn_icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8 -3.49691e-07L6.70082 1.29918L12.4828 7.0812L3.52868e-07 7.0812L2.72544e-07 8.9188L12.4828 8.9188L6.70081 14.7008L8 16L16 8L8 -3.49691e-07Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <label id="check1" class="form__description">
+                                        <input type="checkbox" id="check1">
+                                        <div class="form__description-decor"></div>
+                                        <p>
+                                            Нажимая кнопку «Отправить», Вы соглашается с
+                                            нашей политикой <a href="#!">Обработки персональных данных</a>
+                                        </p>
+                                    </label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--=include footer.html-->
+    </div>
+
+    <script defer>
+        document.addEventListener("DOMContentLoaded", () => {
+            let slider = document.querySelector('.price-slider');
+
+            let arrMinMax = [1, 150]
+
+            const range = noUiSlider.create(slider, {
+                start: 70,
+                connect: true,
+                range: {
+                    'min': arrMinMax[0],
+                    'max': arrMinMax[1]
+                },
+                tooltips: [true],
+                format: {
+                    to: function (value) {
+                        return Math.round(value) + ' м²';
+                    },
+                    from: function (value) {
+                        return value.replace(' м²', '');
+                    }
+                }
+            });
+            range.on('update', function (values, handle, unencoded) {
+                const num = Math.round(unencoded);
+                const res = Math.floor((num / arrMinMax[1]) * 100);
+                slider.style.setProperty('--width', `${res + 1}%`);
+            });
+        })
+    </script>
+</body>
+
+</html>
