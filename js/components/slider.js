@@ -2,7 +2,24 @@ export const sliderCreate = () => {
     // массив всех слайдеров
     // для создания простых слайдеров без сложной логики
     const sliders = [
-        // пример слайдера
+        // marque-slider
+        [
+            document.querySelector(".marque-slider"),
+            {
+                slidesPerView: "auto",
+                spaceBetween: 0,
+                speed: 5000,
+                loop: true,
+                touchRatio: false,
+                allowTouchMove: false,
+                touchMove: false,
+                //allowTouchMove: false, // можно ещё отключить свайп
+                autoplay: {
+                    delay: 0,
+                    disableOnInteraction: false // или сделать так, чтобы восстанавливался autoplay после взаимодействия
+                }
+            }
+        ],
         [
             document.querySelector(".advanteges__slider"),
             {
