@@ -322,10 +322,10 @@
         document.addEventListener("DOMContentLoaded", () => {
             let slider = document.querySelector('.price-slider');
 
-            let arrMinMax = [50, 250]
+            let arrMinMax = [0, 100]
 
             const range = noUiSlider.create(slider, {
-                start: 117,
+                start: 50,
                 connect: true,
                 range: {
                     'min': arrMinMax[0],
