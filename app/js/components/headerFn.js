@@ -3,7 +3,7 @@ export const headerFixed = () =>{
         mainNode = document.querySelector(".main");
 
     // проверка достиг ли header footer'a
-    
+    if(!mainNode) return;
     mainNode.style.setProperty("--hei", `${header.clientHeight}px`);
 
     window.addEventListener("resize", ()=>{
